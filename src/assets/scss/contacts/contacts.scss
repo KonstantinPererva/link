@@ -74,6 +74,11 @@
 .additional-info-link a {
   color: #fff;
   font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .additional-info-link {

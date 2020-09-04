@@ -49,4 +49,8 @@
     line-height: 13px;
     background: #ddf2e6;
   }
+  
+  &__button:last-child span {
+    cursor: default;
+  }
 }

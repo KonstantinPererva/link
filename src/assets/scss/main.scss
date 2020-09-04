@@ -1,7 +1,18 @@
 @import "utils/vars";
 @import "utils/mixins";
 //@import "utils/fonts";
-@import "utils/base";
+//@import "utils/base";
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: roboto, helvetica, arial, sans-serif;
+}
 
 //@import "../css/style.scss";
 @import "popup/style.scss";
