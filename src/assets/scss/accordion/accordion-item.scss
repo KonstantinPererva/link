@@ -1,0 +1,35 @@
+.accordion-item {
+  display: block;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.box-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% - 1px);
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  padding: 10px 5px 5px;
+  overflow-y: hidden;
+  z-index: 1;
+}
+
+.option {
+  display: block;
+  min-height: 34px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  margin: 0;
+  padding: 8px 5px;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.option.active {
+  background: #f2f2f2;
+  color: #000;
+}

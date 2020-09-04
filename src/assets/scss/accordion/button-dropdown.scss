@@ -1,0 +1,43 @@
+.button-dropdown {
+  position: relative;
+  height: 48px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: Arial,sans-serif;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+  padding: 0 40px 0 24px;
+  transition: 150ms;
+  user-select: none;
+
+  @media (max-width: 767px) {
+    height: 38px;
+  }
+
+  &__text {
+    display: block;
+  }
+
+  &__indicator {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13px;
+    height: 13px;
+    transform: rotate(0);
+
+    &.open {
+      transform: rotate(180deg);
+    }
+  }
+}

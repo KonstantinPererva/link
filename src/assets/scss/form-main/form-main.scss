@@ -1,0 +1,26 @@
+.form-main {
+
+  &.form-feedback {
+    max-width: 540px;
+    width: 100%;
+    box-shadow: 0 30px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 40px;
+    background: #fff;
+
+    @media (max-width: 767px) {
+      padding: 20px;
+    }
+  }
+}
+
+.wr-form-main {
+  margin: 0 0 115px;
+  padding: 0 20px;
+
+  @media (max-width: 767px) {
+    margin: 0 0 80px;
+  }
+}

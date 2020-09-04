@@ -1,0 +1,12 @@
+.popup-footer {
+  min-height: 176px;
+  padding: 40px;
+  background-image: url(/assets/img/bg_bottom_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &_personality {
+    padding: 24px 40px;
+    background-image: url(/assets/img/bg_bottom_2.png);
+  }
+}

@@ -1,0 +1,11 @@
+.form-main-label {
+  display: block;
+
+  &__title {
+    display: block;
+    padding: 6px 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

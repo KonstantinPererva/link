@@ -1,0 +1,46 @@
+.popup-footer-personality {
+  text-align: center;
+}
+
+.personality-quote {
+  margin: 0 0 20px;
+
+  & p {
+    font-size: 12px;
+    line-height: 16px;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+.personality-data {
+  display: inline-flex;
+  align-items: center;
+}
+
+.personality-img {
+  flex-shrink: 0;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 0 17px 0 0;
+}
+
+.personality-name {
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0 0 3px;
+}
+
+.personality-text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.personality-box {
+  text-align: left;
+}
