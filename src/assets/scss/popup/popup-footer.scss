@@ -5,8 +5,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (max-width: 767px) {
+    padding: 40px 20px;
+    background: #56bd81;
+  }
+
   &_personality {
     padding: 24px 40px;
     background-image: url(/assets/img/bg_bottom_2.png);
+
+    @media (max-width: 767px) {
+      padding: 24px 20px;
+    }
   }
 }

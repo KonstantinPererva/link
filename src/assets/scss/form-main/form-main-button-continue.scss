@@ -17,6 +17,10 @@
   border: 0;
   outline: none;
 
+  @media (max-width: 767px) {
+    height: 38px;
+  }
+
   &:hover {
     background: #56bd81;
     outline: none;

@@ -1,3 +1,7 @@
 .popup-body {
   padding: 10px 40px 40px;
+
+  @media (max-width: 767px) {
+    padding: 10px 20px 20px;
+  }
 }
